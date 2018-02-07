@@ -10,7 +10,6 @@ api.get('/', function(req, res, next) {
 });
 
 api.post('/token', function(req, res, next) {
-    console.log('params key [' + req.body.key + '] sec [' + req.body.sec + ']' );
     res.send('something to send');
 });
 
